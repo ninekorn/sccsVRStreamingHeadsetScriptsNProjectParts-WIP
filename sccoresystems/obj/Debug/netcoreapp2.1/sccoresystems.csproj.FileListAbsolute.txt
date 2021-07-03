@@ -1,0 +1,23 @@
+/home/pi/Desktop/sccoresystems/bin/Debug/netcoreapp2.1/sccoresystems.deps.json
+/home/pi/Desktop/sccoresystems/bin/Debug/netcoreapp2.1/sccoresystems.runtimeconfig.json
+/home/pi/Desktop/sccoresystems/bin/Debug/netcoreapp2.1/sccoresystems.runtimeconfig.dev.json
+/home/pi/Desktop/sccoresystems/bin/Debug/netcoreapp2.1/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/bin/Debug/netcoreapp2.1/sccoresystems.pdb
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.csproj.AssemblyReference.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.AssemblyInfoInputs.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.AssemblyInfo.cs
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.csproj.CoreCompileInputs.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.pdb
+/home/pi/Desktop/sccoresystems/obj/Debug/netcoreapp2.1/sccoresystems.genruntimeconfig.cache
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\bin\Debug\netcoreapp2.1\sccoresystems.deps.json
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\bin\Debug\netcoreapp2.1\sccoresystems.runtimeconfig.json
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\bin\Debug\netcoreapp2.1\sccoresystems.runtimeconfig.dev.json
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\bin\Debug\netcoreapp2.1\sccoresystems.dll
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\bin\Debug\netcoreapp2.1\sccoresystems.pdb
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.csprojAssemblyReference.cache
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.AssemblyInfoInputs.cache
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.AssemblyInfo.cs
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.dll
+C:\Users\steve\OneDrive\Desktop\backup recovered\#uploaded\sccoresystems\obj\Debug\netcoreapp2.1\sccoresystems.pdb

@@ -1,0 +1,8 @@
+#print('Loading image...')
+path = '/home/kali/Desktop/raspberriPiSetupNImage/'
+#image = Image.open(path + 'blinka.jpg')
+#image = Image.open(path + '8e3a980f0f964cc539b4cbbba2654bb660db6f52_arduino-uno-pinout-diagram.jpeg')
+
+#image = Image.open(path + 'R-Pi-4-GPIO-Pinout.webp')
+#image = Image.open(path + '1920x1080.png')
+image = Image.open(path + '1920x1080gimp.png')

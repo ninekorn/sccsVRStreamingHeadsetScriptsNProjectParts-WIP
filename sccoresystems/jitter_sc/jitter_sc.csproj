@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Collision\CollisionSystem-mod.cs" />
+    <Compile Remove="Collision\CollisionSystem-mod3.cs" />
+    <Compile Remove="Collision\CollisionSystem-MODDED.cs" />
+    <Compile Remove="Collision\CollisionSystemPersistentSAP - backup2020-04-14.cs" />
+    <Compile Remove="Collision\CollisionSystemPersistentSAP-mod1.cs" />
+    <Compile Remove="Collision\CollisionSystemPersistentSAP-mod2.cs" />
+    <Compile Remove="Collision\IslandManager-mod2.cs" />
+    <Compile Remove="LinearMath\JVector - original.cs" />
+    <Compile Remove="SC_object_messenger_dispatcher_jitter.cs" />
+    <Compile Remove="sc_worker_task.cs" />
+    <Compile Remove="ThreadManager-mod.cs" />
+    <Compile Remove="World - backup 2020-04-14.cs" />
+    <Compile Remove="World-mod.cs" />
+    <Compile Remove="World-mod2.cs" />
+    <Compile Remove="_sc_jitter_physics-mod2.cs" />
+    <Compile Remove="_sc_jitter_physics-modded.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ab3d.DXEngine" Version="4.0.7447" />
+  </ItemGroup>
+
+</Project>

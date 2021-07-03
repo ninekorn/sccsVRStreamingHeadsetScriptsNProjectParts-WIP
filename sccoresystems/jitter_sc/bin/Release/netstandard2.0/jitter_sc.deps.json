@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "87084029120cb4e1fa3b6740f8acca5d63ce0503"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "jitter_sc/1.0.0": {
+        "dependencies": {
+          "Ab3d.DXEngine": "4.0.7447",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "jitter_sc.dll": {}
+        }
+      },
+      "Ab3d.DXEngine/4.0.7447": {
+        "runtime": {
+          "lib/net45/Ab3d.DXEngine.dll": {
+            "assemblyVersion": "4.0.7447.2045",
+            "fileVersion": "4.0.7447.2045"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "jitter_sc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ab3d.DXEngine/4.0.7447": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ViBSVMvvO8cKW/nb1UHmBtxzER5uJ9hNxrWWNcbbVgTUxCbCNq0L7BXBv0km/tbWVOrKrsMFYZpIr3MceJRx6g==",
+      "path": "ab3d.dxengine/4.0.7447",
+      "hashPath": "ab3d.dxengine.4.0.7447.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}

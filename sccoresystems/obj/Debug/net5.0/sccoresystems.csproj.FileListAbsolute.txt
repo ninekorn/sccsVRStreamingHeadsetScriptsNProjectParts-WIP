@@ -1,0 +1,16 @@
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems.deps.json
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems.runtimeconfig.json
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems.runtimeconfig.dev.json
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/ref/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/bin/Debug/net5.0/sccoresystems.pdb
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.csproj.AssemblyReference.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.GeneratedMSBuildEditorConfig.editorconfig
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.AssemblyInfoInputs.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.AssemblyInfo.cs
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.csproj.CoreCompileInputs.cache
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/ref/sccoresystems.dll
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.pdb
+/home/pi/Desktop/sccoresystems/obj/Debug/net5.0/sccoresystems.genruntimeconfig.cache

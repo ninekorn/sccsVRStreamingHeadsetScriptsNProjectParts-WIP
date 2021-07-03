@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ab3d.OculusWrap\**" />
+    <Compile Remove="inputsimulator\**" />
+    <Compile Remove="JitterDemo\**" />
+    <Compile Remove="Jitter\**" />
+    <Compile Remove="jitter_sc\**" />
+    <EmbeddedResource Remove="Ab3d.OculusWrap\**" />
+    <EmbeddedResource Remove="inputsimulator\**" />
+    <EmbeddedResource Remove="JitterDemo\**" />
+    <EmbeddedResource Remove="Jitter\**" />
+    <EmbeddedResource Remove="jitter_sc\**" />
+    <None Remove="Ab3d.OculusWrap\**" />
+    <None Remove="inputsimulator\**" />
+    <None Remove="JitterDemo\**" />
+    <None Remove="Jitter\**" />
+    <None Remove="jitter_sc\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Forces\PseudoCloth.cs" />
+    <Compile Remove="Program - current backup.cs" />
+    <Compile Remove="sccsgraphicsupdate - backup.cs" />
+    <Compile Remove="sccsgraphicsupdate.cs" />
+    <Compile Remove="sccsgraphicsupdatessec.cs" />
+    <Compile Remove="sccsscreencapture - current backup.cs" />
+    <Compile Remove="sccssharpdxdirectx.cs" />
+    <Compile Remove="sccssharpdxscreencapture - BACKUP 2021-june-6th.cs" />
+    <Compile Remove="sccssharpdxscreencapture - thrash 1.cs" />
+    <Compile Remove="sccssharpdxscreencapture - thrash.cs" />
+    <Compile Remove="sccssharpdxscreencapture-gccollect1.cs" />
+    <Compile Remove="sccssharpdxscreencapture-originalxoofx.cs" />
+    <Compile Remove="sccssharpdxscreencapture-originalxoofxgithubrepo.cs" />
+    <Compile Remove="sccssharpdxscreencapture-withGCCollect - Copy.cs" />
+    <Compile Remove="sccssharpdxscreencapture-withGCCollect.cs" />
+    <Compile Remove="sccssharpdxscreencapturememoryloss.cs" />
+    <Compile Remove="sccssharpdxscreenframe - current-backup.cs" />
+    <Compile Remove="scintermediateupdate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="sccsLNLPcToPi - fail.py" />
+    <None Remove="sccsLNLPcToPi - failing.py" />
+    <None Remove="sccsLNLPcToPi - WORKINGINTERMSOFNOTCRASHING.py" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.D3DCompiler" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct2D1" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11.Effects" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DirectInput" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DirectSound" Version="4.2.0" />
+    <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+    <PackageReference Include="SharpDX.XAudio2" Version="4.2.0" />
+    <PackageReference Include="SharpDX.XInput" Version="4.2.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="System.IO.Pipes" Version="4.3.0" />
+    <PackageReference Include="System.IO.Ports" Version="5.0.1" />
+    <PackageReference Include="System.Speech" Version="5.0.0" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ab3d.OculusWrap">
+      <HintPath>Ab3d.OculusWrap\Ab3d.OculusWrap\Ab3d.OculusWrap\bin\Release\Ab3d.OculusWrap.dll</HintPath>
+    </Reference>
+    <Reference Include="jitter_sc">
+      <HintPath>jitter_sc\bin\Release\netstandard2.0\jitter_sc.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsInput">
+      <HintPath>inputsimulator\WindowsInput\bin\Release\WindowsInput.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
