@@ -4,3 +4,11 @@ I am not done but this is a simple project to bring a pc screen capture from win
 steve chassé aka ninekorn
 https://wordpress.com/post/sccoresystems.wordpress.com/854
 https://github.com/ninekorn/sccsVRStreamingHeadsetScriptsNProjectParts-WIP
+
+Edit: Before i uploaded to github, here are the results i was getting:
+
+<a href="https://ibb.co/HFt38Dr"><img src="https://i.ibb.co/HFt38Dr/screencapture1.png" alt="screencapture1" border="0"></a> <a href="https://ibb.co/RCHpc6r"><img src="https://i.ibb.co/RCHpc6r/screencapture0.png" alt="screencapture0" border="0"></a> <a href="https://ibb.co/sVbRYzL"><img src="https://i.ibb.co/sVbRYzL/sccoresystemsscreencapture0.png" alt="sccoresystemsscreencapture0" border="0"></a>
+
+but i think it was i who was cleaning the scripts and broke something again... by accident i can assure you. but my desktop screenrecordings on my left computer would be able to confirm whether it was a goddamn bug again or something else. 
+
+<a href="https://ibb.co/HFt38Dr"><img width=250 src="https://i.ibb.co/HFt38Dr/screencapture1.png" alt="screencapture1" border="0"></a> <a href="https://ibb.co/RCHpc6r"><img width=250 src="https://i.ibb.co/RCHpc6r/screencapture0.png" alt="screencapture0" border="0"></a> <a href="https://ibb.co/sVbRYzL"><img width=250 src="https://i.ibb.co/sVbRYzL/sccoresystemsscreencapture0.png" alt="sccoresystemsscreencapture0" border="0"></a>
