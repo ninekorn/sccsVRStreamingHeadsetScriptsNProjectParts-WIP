@@ -9,4 +9,8 @@ Edit-2021-july-10: Before i uploaded to github, here are the results i was getti
 
 but i think it was i who was cleaning the scripts and broke something again... by accident i can assure you. but my desktop screenrecordings on my left computer would be able to confirm whether it was a goddamn bug again or something else. 
 
+https://youtu.be/X45rbwb4nFc <= hand controllers testing for my solution sccoresystems.
+https://youtu.be/RgwIjfCAfYQ <= st7735 displays testing.
+
+
 
