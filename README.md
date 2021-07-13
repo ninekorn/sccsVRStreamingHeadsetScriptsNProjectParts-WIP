@@ -4,3 +4,9 @@ I am not done but this is a simple project to bring a pc screen capture from win
 steve chassé aka ninekorn
 https://wordpress.com/post/sccoresystems.wordpress.com/854
 https://github.com/ninekorn/sccsVRStreamingHeadsetScriptsNProjectParts-WIP
+
+Edit-2021-july-10: Before i uploaded to github, here are the results i was getting:
+
+but i think it was i who was cleaning the scripts and broke something again... by accident i can assure you. but my desktop screenrecordings on my left computer would be able to confirm whether it was a goddamn bug again or something else. 
+
+
