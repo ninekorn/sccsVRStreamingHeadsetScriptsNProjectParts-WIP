@@ -1,12 +1,11 @@
 #made by ninekorn
 import socket
+#import tqdm
 import os
 import time
 import sys
-import struct
 #https://stackoverflow.com/questions/1271320/resetting-generator-object-in-python
 #import more_itertools as mit
-#import tqdm
 
 # device's IP address
 PC_HOST = "192.168.0.107"
@@ -24,12 +23,14 @@ clientfilename = "sccsmsgPiToPc.txt"
 # get the file size
 clientfilesize = os.path.getsize(clientfilename)
 
+
 # create the server socket
 # TCP socket
 #s = socket.socket()
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-
+                
+                
 # bind the socket to our local address
 s.bind((SERVER_HOST, SERVER_PORT))
 
@@ -49,6 +50,7 @@ print(str(address) + " is connected" ) #f"[+] {address} is connected."
 received = client_socket.recv(BUFFER_SIZE).decode()
 #filename = received
 #filesize = 0
+            
 #filename, filesize = received.split(SEPARATOR)
 # remove absolute path if there is
 filename = os.path.basename(received)
@@ -65,48 +67,42 @@ somecountermax = 1;
 someswtc = 0
 somefinalcounter = 0;
 
+#while True:
 
+""" 
+def generator():  
+  while True:
+   
+    yield #x #"yield-return-generator is alive."#"frame"
+    #yield
+    #print("test0")
+    #time.sleep(1)
+"""
 
-f = open(r'\\.\pipe\sccsmscpcTopi', 'r+b', 0)
-i = 1
+def generator(n):
+    i = 0
+    while i > n:
+        yield i
+        #i += 1
 
-screenrowwidth = 8294400
-somestring = ""
-
-for x in range(screenrowwidth):
-    somestring  = somestring + ' '
+"""
+def generator():  
+  while True:
+    yield        
+"""
 
 someitergenresetcounter = 0
 someitergenresetcountermax = 0
-
-def generator(n):
-    i = 0    
-    while i > n:
-        yield i
-    #i += 1
-   
+    
 #y = mit.seekable(generator())
+
 y = generator(-1)
-
 if __name__ == "__main__":
-    for x in y:
-
-        #section to read the buffer
-        s = somestring.encode('ascii') #'Message[{0}]'.format(i).encode('ascii')
-        i += 1
-
-        f.write(struct.pack('I', len(s)) + s)   # Write str length and str
-        f.seek(0)                               # EDIT: This is also necessary
-        print('Wrote:', s)
-
-        n = struct.unpack('I', f.read(4))[0]    # Read str length
-        s = f.read(n).decode('ascii')           # Read str
-        f.seek(0)                               # Important!!!
-        print('Read:', s)
-        #section to read the buffer
+    for x in y:      
         
         if someswtc == -1:
-        
+            
+            
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)                  
                             
@@ -155,9 +151,9 @@ if __name__ == "__main__":
                 
 
             
-
-
-
+        
+        
+        
         if someswtc == 0:
             
             somefilesizeswtc = 0
@@ -214,7 +210,7 @@ if __name__ == "__main__":
 
             someswtc = 2
             
-
+        
         if someswtc == 2:
             print("ready to receive another file. advising server.")    
                            
@@ -272,5 +268,5 @@ if __name__ == "__main__":
             #print(x)
             someitergenresetcounter = 0
         someitergenresetcounter += 1
-
+        
         time.sleep(0)

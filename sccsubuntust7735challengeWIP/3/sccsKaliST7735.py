@@ -1,0 +1,1 @@
+with Lepton("/dev/spidev0.1") as l:

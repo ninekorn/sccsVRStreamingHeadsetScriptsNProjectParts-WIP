@@ -3285,11 +3285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Desktop\\backup recovered\\#uploaded\\sccoresystems\\sccoresystems.csproj",
+      "projectUniqueName": "C:\\Users\\steve\\OneDrive\\Documents\\GitHub\\sccsVRStreamingHeadsetScriptsNProjectParts-WIP\\sccoresystems\\sccoresystems.csproj",
       "projectName": "sccoresystems",
-      "projectPath": "C:\\Users\\steve\\OneDrive\\Desktop\\backup recovered\\#uploaded\\sccoresystems\\sccoresystems.csproj",
+      "projectPath": "C:\\Users\\steve\\OneDrive\\Documents\\GitHub\\sccsVRStreamingHeadsetScriptsNProjectParts-WIP\\sccoresystems\\sccoresystems.csproj",
       "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\steve\\OneDrive\\Desktop\\backup recovered\\#uploaded\\sccoresystems\\obj\\",
+      "outputPath": "C:\\Users\\steve\\OneDrive\\Documents\\GitHub\\sccsVRStreamingHeadsetScriptsNProjectParts-WIP\\sccoresystems\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

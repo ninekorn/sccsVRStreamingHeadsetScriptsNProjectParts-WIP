@@ -172,7 +172,8 @@ namespace sccoresystems
         string path = "";
         string somebitmappath = "";
 
-        const string outputFileName = "ScreenCapture.bmp";
+        const string outputFileName = "sharpdxscreencapture";
+        const string extensiontype = ".bmp"; // or .jpg or .png
         FileInfo fileInfo;
 
 
@@ -597,14 +598,6 @@ namespace sccoresystems
         {
             try
             {
-
-
-
-
-
-
-
-
                 using (var screenTexture2DD = _screenResource.QueryInterface<Texture2D>())
                 {
                     /*var textureDescription = new Texture2DDescription
@@ -640,8 +633,6 @@ namespace sccoresystems
                     _device.ImmediateContext.CopyResource(screenTexture2DD, _texture2D);
                 }
 
-
-
                 //TO READD WHEN IN NEED OF 1 bitmap and 1 array of bytes.
                 var dataBox1 = _device.ImmediateContext.MapSubresource(_texture2D, 0, SharpDX.Direct3D11.MapMode.Read, SharpDX.Direct3D11.MapFlags.None);
 
@@ -669,17 +660,15 @@ namespace sccoresystems
                 //DISCARDED
 
                 var somebitmap = new System.Drawing.Bitmap(_width, _height, memoryBitmapStride, PixelFormat.Format32bppArgb, interptr1);
-                _device.ImmediateContext.UnmapSubresource(_texture2D, 0);
-         
+                _device.ImmediateContext.UnmapSubresource(_texture2D, 0);   
 
                 if (somebitmapcounter >= somebitmapcountermax)
                 {
                     somebitmapcounter = 0;
                 }
-                //somebitmap.Save(path + "" + somebitmapcounter + "" + outputFileName); //
-                somebitmap.Save(path + "sccsscreencapture.jpg"); //
 
-                
+                somebitmap.Save(path + "" + outputFileName + somebitmapcounter + extensiontype); //
+                //somebitmap.Save(path + "sccsscreencapture.jpg"); //
 
                 somebitmapcounter++;
 
@@ -712,16 +701,6 @@ namespace sccoresystems
 
                 _frameCaptureData.bitmapByteArray = _textureByteArray;
                 */
-
-
-
-
-
-
-
-
-
-
                 //TO READD WHEN IN NEED OF 1 bitmap and 1 array of bytes.
 
 

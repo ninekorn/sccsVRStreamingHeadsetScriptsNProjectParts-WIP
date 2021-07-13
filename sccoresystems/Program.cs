@@ -1209,8 +1209,6 @@ namespace sccoresystems
                             sccsconsolewritermsg[7].delay = 5;
                             sccsconsolewritermsg[7].looping = 1;
 
-
-
                             server.WaitForConnection();
 
                             var br = new BinaryReader(server);
@@ -1321,15 +1319,16 @@ namespace sccoresystems
                                     //https://stackoverflow.com/questions/11654562/how-to-convert-byte-array-to-string
                                     //var somemessagestring = System.Text.Encoding.ASCII.GetString(somesccsscreencapturemaindata.bitmapByteArray);
                                     //somemessagestringfinal += somemessagestring;
-
                                 }
 
                                 Console.SetCursorPosition(0, 7);
-                                Console.WriteLine(somesccsscreencapturemaindata.bitmapByteArray.Length);
+                                //Console.WriteLine(somesccsscreencapturemaindata.bitmapByteArray.Length);
+                                Console.WriteLine(somebytearray.Length);
 
                                 var buf = Encoding.ASCII.GetBytes(somebuff);// Get ASCII byte array     
                                 bw.Write((uint)buf.Length);// Write string length
                                 bw.Write(buf);
+
                                 //TEST# SENDING A STANDARD BYTE ARRAY AND ITS WORKING PERIODICALLY.
 
                                 /*for (int b = 0; b < somesccsscreencapturemaindata.screencapturearrayofbytes.Length; b++)
@@ -1991,7 +1990,7 @@ namespace sccoresystems
                         Task pythontoprogramtask = Task<object[]>.Factory.StartNew((tester0001) =>
                         {
                             // Open the named pipe.
-                            var server = new NamedPipeServerStream("NPtest");
+                            var server = new NamedPipeServerStream("sccsmscpcTopi");
                             //Console.WriteLine("Waiting for connection... task c# to python.");
 
                             string somemessage = "python pipe Pc to Pi. Waiting for connection...";
